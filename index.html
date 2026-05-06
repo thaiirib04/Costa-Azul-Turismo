@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Azul Turismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<body>
+<header class="header-container">
+  <div class="logo-area">
+    <img src="/img/logo.png" alt="Costa Azul Turismo">
+    <h1>Costa Azul Turismo</h1>
+  </div>
+  <p>Descubra o melhor do litoral norte</p>
+</header>
+
+<nav>
+  <a href="#">Início</a>
+  <a href="#destinos">Destinos</a>
+  <a href="#pacotes">Pacotes</a>
+  <a href="#avaliacoes">Avaliações</a>
+  <a href="#contato">Contato</a>
+
+</nav>
+
+<section class="carousel">
+  <img src="/img/caragua.jpg" class="active">
+  <img src="/img/ubatuba.jpg">
+  <img src="/img/ilhabela.jpg">
+</section>
+
+<div class="buttons">
+  <button onclick="prevSlide()">Anterior</button>
+  <button onclick="nextSlide()">Próximo</button>
+</div>
+
+<section class="destinos" id="destinos">
+  <h2>Destinos</h2>
+
+  <div class="card">
+    <h3>Ubatuba</h3>
+    <img src="/img/ubatuba.jpg" alt="praiaUbatuba" class="imgCard">
+    <p>Mais de 100 praias paradisíacas.</p>
+  </div>
+
+  <div class="card">
+    <h3>Ilhabela</h3>
+    <img src="/img/ilhabela.jpg" alt="praiaIlhabela" class="imgCard">
+    <p>Natureza e cachoeiras incríveis.</p>
+  </div>
+
+  <div class="card">
+    <h3>Caraguatatuba</h3>
+    <img src="/img/caragua.jpg" alt="praiaCaragua" class="imgCard">
+    <p>Praias tranquilas para família.</p>
+  </div>
+</section>
+
+<section class="pacotes" id="pacotes">
+  <h2>Pacotes em Destaque</h2>
+
+  <div class="pacote">
+    <h3>Ubatuba - 3 dias</h3>
+    <img src="/img/hotelUba.jpg" alt="" class="imgPac">
+    <p>Hotel + Café da manhã</p>
+    <span>R$ 899</span>
+    <button>Reservar</button>
+  </div>
+
+  <div class="pacote">
+    <h3>Ilhabela - 5 dias</h3>
+    <img src="/img/hotelIlha.jpg" alt="" class="imgPac">
+    <p>Passeios inclusos</p>
+    <span>R$ 1499</span>
+    <button>Reservar</button>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Pronto para viajar?</h2>
+  <button>Fale conosco</button>
+</section>
+
+<section class="avaliacoes" id="avaliacoes">
+  <h2>Avaliações</h2> <div class="avaliacoes-container">  
+  
+    <div class="avaliacao">
+      <p>"Viagem incrível! Tudo perfeito."</p>
+      <span>⭐⭐⭐⭐⭐</span>
+    </div>
+
+    <div class="avaliacao">
+      <p>"Melhor agência que já usei!"</p>
+      <span>⭐⭐⭐⭐⭐</span>
+    </div>
+  </div>
+</section>
+
+
+
+<footer id="contato">
+  <p>Contato: (11) 99999-9999 | costaazul@email.com</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
